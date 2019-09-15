@@ -11,6 +11,7 @@ moreText.style.display = "none";
 dots.style.display = "none";
 button.innerHTML = "Read less";
 moreText.style.display = "inline";
+moreText.style.transition = "height 4s;";
 }
 }
 
