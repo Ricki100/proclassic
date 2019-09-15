@@ -25,6 +25,15 @@ body {
   }
 }
 
+#more1{display: none;}
+#more2{display: none;}
+#more3{display: none;}
+
+
+.blue{
+  display:none;
+}
+
 a {
   color: red;
   -webkit-transition: 0.5s;
@@ -529,12 +538,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-decoration: none;
 }
 .blog-entry .desc span {
-  display: block;
-  margin-bottom: 20px;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: rgba(0, 0, 0, 0.4) !important;
+ 
 }
 .blog-entry .desc span small i {
   color: #e6e6e6;
@@ -1180,5 +1184,14 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+
+.text1{
+  margin-bottom: 0px; 
+    font-size: 14px; 
+  text-transform: lowercase; 
+    letter-spacing: 0px; 
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
 
 /*# sourceMappingURL=style.css.map */
